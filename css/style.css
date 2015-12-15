@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+	background-color: #ffffff;
+}
+.wrapper {
+	width: 940px;
+	margin: 0 auto;
+}
+.header,
+.container,
+.content  {
+	margin: 0 0 10px 0;
+	overflow: hidden;
+}
+.header .header-box {
+	width: 58px;
+	height: 63px;
+	margin: 0 21px 10px 0;
+	float: left;
+}
+.header .header-box:first-child {
+	margin: 0 0 10px 20px;
+	float: right;
+}
+.container {
+	padding: 55px 0;
+}
+.container .item {
+	width: 14.54%;  
+	height: 103px;
+	margin-right: 24px;
+	float: left;
+}
+.container .item:nth-child(6n) {
+	margin-right: 0;
+}
+.content {
+	padding: 10px;
+}
+.content .content-wrapper {
+	overflow: hidden;
+}
+.content .content-wrapper .content-box {
+	width: 138px;
+	height: 103px;
+	margin: 10px;	
+	float: left;
+}
+.content .content-wrapper .content-box:first-child {
+	width: 116px;
+	height: 226px;
+	margin-left: 0;
+	float: right;
+}
+.side-nav {
+	position: fixed;
+	top: 50%;
+	left: 0;
+	width: 17px;
+	height: 165px;
+	margin-top: -85px;
+}
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 940px;
+	height: 23px;
+}
+
+/* COLORS */
+
+.blue {
+	background-color: #88d8fd;
+}
+.red {
+	background-color: #e04e5a;
+}
+.yellow {
+	background-color: #e0cd4e;
+}
+.green {
+	background-color: #4ee077;
+}
+.purple {
+	background-color: #8f4ee0;
+}
